@@ -1,80 +1,59 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-*.manifest
-*.spec
-
-# Logs and coverage reports
-pip-log.txt
-pip-delete-this-directory.txt
-*.log
-.coverage
-.coverage.*
-.cache
-.pytest_cache/
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-
-# Environment and virtual environment files
-.env
-.venv
-env/
-venv/
-ENV/
-
-# IDE and editor-specific files
-.idea/
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
 # macOS system files
 .DS_Store
 ._*
 .Spotlight-V100
 .Trashes
 
-# Python-specific files for PyBuilder and translations
-target/
-*.mo
-*.pot
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Temporary files created by editors or tools
-*.tmp
-*.temp
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.Python
 
-# Ignore sensitive data (add specific filenames if needed)
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# Test coverage reports
+.coverage
+.coverage.*
+.cache
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Build artifacts and packaging files
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Environment variables and secrets
+.env
+.env.*
 secrets.json
 
-# Exclude node_modules if using Node.js in the project (optional)
-node_modules/
+# Temporary files and backups
+*.tmp
+*.temp
+*.bak
+*.swp
 
-# Ignore compiled Python files globally (optional)
-*.pyc
 
