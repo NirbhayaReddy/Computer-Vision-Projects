@@ -1,11 +1,11 @@
-Got it! Since this is a README for **Project 1** within its own folder and not the main repository README, I'll simplify it and remove unnecessary sections like installation instructions. Here's the revised README:
+Here’s a clean and concise **README** file for **Project 1** in the `Project_1` folder, including dependencies and relevant details:
 
 ---
 
 # Project 1: Computer Vision Assignment 1
 
 ## Overview
-This folder contains **Project 1**, which focuses on implementing and analyzing various image processing techniques using a Notebook (`Project1.ipynb`). The project demonstrates key concepts in computer vision, including:
+This folder contains **Project 1**, which focuses on implementing and analyzing various image processing techniques using a Jupyter Notebook (`Project1.ipynb`). The project demonstrates key concepts in computer vision, including:
 - **Histogram Equalization** for enhancing image contrast.
 - **Image Thresholding** using Otsu's and Ni-Black's methods for binary segmentation.
 - **Template Matching** using Normalized Cross-Correlation.
@@ -32,10 +32,25 @@ Implements the Sum of Absolute Differences (SAD) method for faster template matc
 
 ---
 
+## Dependencies
+To run the notebook and reproduce the results, you need the following Python libraries:
+- `numpy`
+- `matplotlib`
+- `scikit-image`
+- `scipy`
+
+Install them using:
+```bash
+pip install numpy matplotlib scikit-image scipy
+```
+
+---
+
 ## How to Use
 1. Open the Jupyter Notebook (`Project1.ipynb`) in your preferred environment (e.g., Jupyter Lab, Jupyter Notebook, or Google Colab).
-2. Execute each cell sequentially to run all tasks.
-3. Refer to the visual outputs in the notebook for results.
+2. Ensure input images are correctly referenced in the notebook.
+3. Execute each cell sequentially to run all tasks.
+4. Refer to the visual outputs in the notebook for results.
 
 ---
 
