@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Logs and coverage reports
+pip-log.txt
+pip-delete-this-directory.txt
+*.log
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Environment and virtual environment files
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE and editor-specific files
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS system files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Python-specific files for PyBuilder and translations
+target/
+*.mo
+*.pot
+
+# Temporary files created by editors or tools
+*.tmp
+*.temp
+
+# Ignore sensitive data (add specific filenames if needed)
+secrets.json
+
+# Exclude node_modules if using Node.js in the project (optional)
+node_modules/
+
+# Ignore compiled Python files globally (optional)
+*.pyc
+
