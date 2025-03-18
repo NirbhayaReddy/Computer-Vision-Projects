@@ -1,7 +1,3 @@
-Here’s a clean and concise **README** file for **Project 1** in the `Project_1` folder, including dependencies and relevant details:
-
----
-
 # Project 1: Computer Vision Assignment 1
 
 ## Overview
@@ -11,7 +7,7 @@ This folder contains **Project 1**, which focuses on implementing and analyzing 
 - **Template Matching** using Normalized Cross-Correlation.
 - **Creative Section** implementing Sum of Absolute Differences (SAD) for efficient template matching.
 
-For a detailed explanation of the methods, results, and discussions, please refer to the accompanying [Report.pdf](./Report.pdf).
+For a detailed explanation of the methods, results, and discussions, please refer to the accompanying [Documentation.pdf](./Documentation.pdf).
 
 ---
 
@@ -55,4 +51,4 @@ pip install numpy matplotlib scikit-image scipy
 ---
 
 ## Refer to Report
-For detailed explanations of each method, their implementation, results, and comparative discussions, please refer to [Report.pdf](./Report.pdf).
+For detailed explanations of each method, their implementation, results, and comparative discussions, please refer to [Documentation.pdf](./Documentation.pdf).
