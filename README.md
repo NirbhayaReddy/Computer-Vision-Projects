@@ -115,8 +115,6 @@ bug_report.md: Template for submitting bug reports.
 
 feature_request.md: Template for requesting new features or enhancements.
 
-Pull Request Template: A standardized template for contributors submitting pull requests is included as PULL_REQUEST_TEMPLATE.md.
-
 These templates help maintain consistency in communication and collaboration within the repository.
 
 ---
