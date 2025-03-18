@@ -14,6 +14,10 @@ This repository contains solutions to two computer vision projects, each focusin
 ## Repository Structure
 ```
 .
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
 ├── Project_1/
 │   ├── Documentation.pdf
 │   ├── Data/
@@ -36,10 +40,6 @@ This repository contains solutions to two computer vision projects, each focusin
 │   │   └── stop.jpg
 │   ├── Project2.ipynb
 │   └── README.md
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md
-│   │   ├── feature_request.md
 ├── .gitignore
 └── README.md (this file)
 ```
@@ -103,6 +103,21 @@ pip install numpy matplotlib opencv-python scipy scikit-image
 3. Open the Jupyter Notebook (`.ipynb` files) in your preferred environment (e.g., Jupyter Lab or Google Colab). Ideally in Google Collab as the work was done in Google Collab.
 
 4. Execute the notebook cells sequentially to run all tasks.
+
+---
+
+## About the .github Folder
+The .github folder contains templates and configurations specific to this repository:
+
+Issue Templates: Predefined templates for reporting bugs or requesting features are located in .github/ISSUE_TEMPLATE/.
+
+bug_report.md: Template for submitting bug reports.
+
+feature_request.md: Template for requesting new features or enhancements.
+
+Pull Request Template: A standardized template for contributors submitting pull requests is included as PULL_REQUEST_TEMPLATE.md.
+
+These templates help maintain consistency in communication and collaboration within the repository.
 
 ---
 
