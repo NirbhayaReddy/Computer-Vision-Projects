@@ -1,0 +1,59 @@
+# macOS system files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# Test coverage reports
+.coverage
+.coverage.*
+.cache
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Build artifacts and packaging files
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Environment variables and secrets
+.env
+.env.*
+secrets.json
+
+# Temporary files and backups
+*.tmp
+*.temp
+*.bak
+*.swp
+
+
